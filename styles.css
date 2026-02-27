@@ -53,6 +53,11 @@ header p {
   border: 1px solid #d1d5db;
 }
 
+#mess-input:focus-visible {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.35);
+}
 button {
   border: 0;
   border-radius: 8px;
